@@ -1,0 +1,9 @@
+@page "/phonics/{bookSlug}/{unitId:int}/practice"
+
+@foreach(var word in Words) {
+    <div class="card text-bg-dark">
+  <img src="@word.Value" class="card-img" alt="@word.Key">
+  <div class="card-img-overlay">
+  </div>
+</div>
+}

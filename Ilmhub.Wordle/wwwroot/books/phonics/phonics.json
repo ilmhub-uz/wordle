@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Phonics 1",
+        "cover": "https://api.dicebear.com/9.x/shapes/svg?seed=Phonics+1",
+        "units": [
+            {
+                "id": 1,
+                "topic": "Aa, Bb, Cc",
+                "images": [
+                    "/books/phonics/unit-1/apple.png",
+                    "/books/phonics/unit-1/alligator.png",
+                    "/books/phonics/unit-1/ant.png",
+                    "/books/phonics/unit-1/bag.png",
+                    "/books/phonics/unit-1/bear.png",
+                    "/books/phonics/unit-1/ball.png",
+                    "/books/phonics/unit-1/car.png",
+                    "/books/phonics/unit-1/cow.png",
+                    "/books/phonics/unit-1/cup.png"
+                ]
+            },
+            {
+                "id": 2,
+                "topic": "Dd, Ee, Ff",
+                "images": [
+                    "/books/phonics/unit-2/duck.png",
+                    "/books/phonics/unit-2/door.png",
+                    "/books/phonics/unit-2/doll.png",
+                    "/books/phonics/unit-2/elephant.png",
+                    "/books/phonics/unit-2/egg.png",
+                    "/books/phonics/unit-2/elbow.png",
+                    "/books/phonics/unit-2/fork.png",
+                    "/books/phonics/unit-2/frog.png",
+                    "/books/phonics/unit-2/fish.png"
+                ]
+            }
+        ]
+    }
+]
