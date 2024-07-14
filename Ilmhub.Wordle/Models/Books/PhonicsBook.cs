@@ -9,10 +9,3 @@ public class PhonicsBook
     public string? Slug => Title?.Slugify();
     public List<PhonicsUnit>? Units { get; set; }
 }
-
-public class PhonicsUnit
-{
-    public int Id { get; set; }
-    public string? Topic { get; set; }
-    public List<string>? Images { get; set; }
-}

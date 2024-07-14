@@ -1,0 +1,47 @@
+
+.recording-wave-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.recording-wave-container .recording-wave-stroke {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 10px;
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    50% {
+        height: 20%;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
+.recording-wave-stroke:nth-child(1) {
+    animation-delay: 0s;
+}
+.recording-wave-stroke:nth-child(2) {
+    animation-delay: 0.3s;
+}
+.recording-wave-stroke:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.recording-wave-stroke:nth-child(4) {
+    animation-delay: 0.9s;
+}
+.recording-wave-stroke:nth-child(5) {
+    animation-delay: 0.6s;
+}
+.recording-wave-stroke:nth-child(6) {
+    animation-delay: 0.3s;
+}
+.recording-wave-stroke:nth-child(7) {
+    animation-delay: 0s;
+}

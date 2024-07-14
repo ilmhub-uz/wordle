@@ -1,0 +1,52 @@
+@if(Started && Words.Any() is true && currentIndex < Words.Count) {
+    <div 
+        class="progress" 
+        role="progressbar" 
+        aria-valuenow="@currentProgress" 
+        aria-valuemin="0" 
+        aria-valuemax="100" 
+        style="height: 5px;">
+        <div class="progress-bar" style="width: @currentProgress%">
+
+        </div>
+    </div>
+
+    <div class="position-absolute bottom-50 start-50 translate-middle-x">
+        <h1 style="font-size: 8rem;">@Words[currentIndex].Name</h1>
+    </div>
+
+    if(Listening) {
+        <div class="d-@(Listening ? "block" : "none") position-absolute bottom-0 start-50 translate-middle-x mb-5 opacity-50">
+            <RecordingWave/>
+        </div>
+    } 
+    else if (SkipQuestion) {
+        <div class="d-flex flex-column text-center position-absolute top-50 start-50 translate-middle">
+            <button @onclick="OnSkipQuestion" type="button" class="btn btn-success btn-lg fs-1 fw-bold">
+                Skip <i class="bi bi-arrow-right"></i>
+            </button>
+        </div>
+    }
+} 
+
+@if(Started is false) {
+    <div class="d-flex flex-column text-center position-absolute top-50 start-50 translate-middle">
+        <button @onclick="StartAsync" type="button" class="btn btn-success btn-lg fs-1 fw-bold">
+            Start <i class="bi bi-flag-fill"></i>
+        </button>
+    </div>
+}
+
+<audio id="incorrect">
+    <source src="/books/phonics/incorrect.mp3" type="audio/mp3">
+</audio>
+<audio id="correct">
+    <source src="/books/phonics/correct.mp3" type="audio/mp3">
+</audio>
+
+<script>
+  window.incorrect = function() { document.getElementById('incorrect').play(); }
+  window.correct = function() { document.getElementById('correct').play(); }
+</script>
+
+

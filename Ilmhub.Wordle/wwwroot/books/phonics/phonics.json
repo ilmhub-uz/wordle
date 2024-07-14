@@ -1,36 +1,109 @@
 [
     {
         "title": "Phonics 1",
+        "slug": "phonics-1",
         "cover": "https://api.dicebear.com/9.x/shapes/svg?seed=Phonics+1",
         "units": [
             {
                 "id": 1,
                 "topic": "Aa, Bb, Cc",
-                "images": [
-                    "/books/phonics/unit-1/apple.png",
-                    "/books/phonics/unit-1/alligator.png",
-                    "/books/phonics/unit-1/ant.png",
-                    "/books/phonics/unit-1/bag.png",
-                    "/books/phonics/unit-1/bear.png",
-                    "/books/phonics/unit-1/ball.png",
-                    "/books/phonics/unit-1/car.png",
-                    "/books/phonics/unit-1/cow.png",
-                    "/books/phonics/unit-1/cup.png"
+                "words": [
+                    {
+                        "name": "apple",
+                        "image": "/books/phonics/phonics-1/unit-1/apple.png",
+                        "audio": "/books/phonics/phonics-1/unit-1/apple.mp3"
+                    },
+                    {
+                        "name": "alligator",
+                        "image": "/books/phonics/phonics-1/unit-1/alligator.png",
+                        "audio": "/books/phonics/phonics-1/unit-1/alligator.mp3"
+                    },
+                    {
+                        "name": "ant",
+                        "image": "/books/phonics/phonics-1/unit-1/ant.png",
+                        "audio": "/books/phonics/phonics-1/unit-1/ant.mp3"
+                    },
+                    {
+                        "name": "bag",
+                        "image": "/books/phonics/phonics-1/unit-1/bag.png",
+                        "audio": "/books/phonics/phonics-1/unit-1/bag.mp3"
+                    },
+                    {
+                        "name": "bear",
+                        "image": "/books/phonics/phonics-1/unit-1/bear.png",
+                        "audio": "/books/phonics/phonics-1/unit-1/bear.mp3"
+                    },
+                    {
+                        "name": "ball",
+                        "image": "/books/phonics/phonics-1/unit-1/ball.png",
+                        "audio": "/books/phonics/phonics-1/unit-1/ball.mp3"
+                    },
+                    {
+                        "name": "car",
+                        "image": "/books/phonics/phonics-1/unit-1/car.png",
+                        "audio": "/books/phonics/phonics-1/unit-1/car.mp3"
+                    },
+                    {
+                        "name": "cow",
+                        "image": "/books/phonics/phonics-1/unit-1/cow.png",
+                        "audio": "/books/phonics/phonics-1/unit-1/cow.mp3"
+                    },
+                    {
+                        "name": "cup",
+                        "image": "/books/phonics/phonics-1/unit-1/cup.png",
+                        "audio": "/books/phonics/phonics-1/unit-1/cup.mp3"
+                    }
                 ]
             },
             {
                 "id": 2,
                 "topic": "Dd, Ee, Ff",
-                "images": [
-                    "/books/phonics/unit-2/duck.png",
-                    "/books/phonics/unit-2/door.png",
-                    "/books/phonics/unit-2/doll.png",
-                    "/books/phonics/unit-2/elephant.png",
-                    "/books/phonics/unit-2/egg.png",
-                    "/books/phonics/unit-2/elbow.png",
-                    "/books/phonics/unit-2/fork.png",
-                    "/books/phonics/unit-2/frog.png",
-                    "/books/phonics/unit-2/fish.png"
+                "words": [
+                    {
+                        "name": "dog",
+                        "image": "/books/phonics/phonics-1/unit-2/dog.png",
+                        "audio": "/books/phonics/phonics-1/unit-2/dog.mp3"
+                    },
+                    {
+                        "name": "duck",
+                        "image": "/books/phonics/phonics-1/unit-2/duck.png",
+                        "audio": "/books/phonics/phonics-1/unit-2/duck.mp3"
+                    },
+                    {
+                        "name": "door",
+                        "image": "/books/phonics/phonics-1/unit-2/door.png",
+                        "audio": "/books/phonics/phonics-1/unit-2/door.mp3"
+                    },
+                    {
+                        "name": "egg",
+                        "image": "/books/phonics/phonics-1/unit-2/egg.png",
+                        "audio": "/books/phonics/phonics-1/unit-2/egg.mp3"
+                    },  
+                    {
+                        "name": "elephant",
+                        "image": "/books/phonics/phonics-1/unit-2/elephant.png",
+                        "audio": "/books/phonics/phonics-1/unit-2/elephant.mp3"
+                    },
+                    {
+                        "name": "elbow",
+                        "image": "/books/phonics/phonics-1/unit-2/elbow.png",
+                        "audio": "/books/phonics/phonics-1/unit-2/elbow.mp3"
+                    },
+                    {
+                        "name": "fork",
+                        "image": "/books/phonics/phonics-1/unit-2/fork.png",
+                        "audio": "/books/phonics/phonics-1/unit-2/fork.mp3"
+                    },
+                    {
+                        "name": "frog",
+                        "image": "/books/phonics/phonics-1/unit-2/frog.png",
+                        "audio": "/books/phonics/phonics-1/unit-2/frog.mp3"
+                    },
+                    {
+                        "name": "fish",
+                        "image": "/books/phonics/phonics-1/unit-2/fish.png",
+                        "audio": "/books/phonics/phonics-1/unit-2/fish.mp3"
+                    }
                 ]
             }
         ]

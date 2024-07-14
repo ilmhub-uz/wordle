@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazor.LocalStorage.WebAssembly" Version="8.0.0" />
+    <PackageReference Include="Blazor.Serialization" Version="8.0.0" />
+    <PackageReference Include="Blazor.SessionStorage.WebAssembly" Version="8.0.0" />
+    <PackageReference Include="Blazor.SpeechRecognition.WebAssembly" Version="8.0.0" />
+    <PackageReference Include="Blazor.SpeechSynthesis.WebAssembly" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.3" PrivateAssets="all" />
   </ItemGroup>

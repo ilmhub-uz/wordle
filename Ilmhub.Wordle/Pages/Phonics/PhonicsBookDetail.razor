@@ -1,15 +1,21 @@
 ﻿@page "/phonics/{bookSlug}"
 
-<div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
-  <div class="list-group list-group-checkable gap-4">
-
-        @if(Book is not null && Book.Units?.Any() is true) {
-            foreach(var unit in Book.Units) {
-                <label class="list-group-item rounded-3 py-3 fs-3 fw-bold opacity-75">
-                    @unit.Topic
-                    <a href="/phonics/@Book.Slug/@unit.Id/practice" class="d-block small opacity-50 text-decoration-none stretched-link">Unit @unit.Id</a>
-                </label>
+@if(Book is not null) {
+    <div class="text-center">
+        <h1 class="bd-title my-5">@Book.Title</h1>
+        <div class="col-md-6 mx-auto row justify-content-center">
+            @foreach (var unit in Book?.Units ?? [])
+            {
+                <div class="col-sm-6 col-md-4 g-3">
+                    <div class="card shadow-sm">
+                        <label class="py-3 fs-3 fw-bold opacity-75">
+                            @unit.Topic
+                            <a href="/phonics/@Book.Slug/@unit.Id/practice"
+                                class="d-block small opacity-50 text-decoration-none stretched-link">Unit @unit.Id</a>
+                        </label>
+                    </div>
+                </div>
             }
-        }
-  </div>
-</div>
+        </div>
+    </div>
+}

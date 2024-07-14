@@ -1,0 +1,21 @@
+@using System.Text.Json;
+
+
+@* <div class="container mt-5">
+    <div class="row justify-content-center">
+        @foreach (var result in Practice?.Results ?? [])
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://avatars.dicebear.com/api/identicon/@(result.Key).svg" class="card-img-top"
+                        alt="Quiz Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@GetPracticeNameFromKey(result.Key)</h5>
+                        <p class="card-text"><strong>@result.Value.Score</p>
+                        <p class="card-text"><strong>Elapsed Time:</strong> @result.Value.ElapsedTime s</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div> *@

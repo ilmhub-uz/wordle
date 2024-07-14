@@ -1,0 +1,44 @@
+@if(Started && CurrentQuestion is not null) {
+    <div 
+        class="progress" 
+        role="progressbar" 
+        aria-valuenow="@currentProgress" 
+        aria-valuemin="0" 
+        aria-valuemax="100" 
+        style="height: 5px;">
+        <div class="progress-bar" style="width: @currentProgress%"></div>
+    </div>
+    <audio src="@CurrentQuestion.Target.Audio" id="player" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1000);">
+    </audio>
+    <div class="d-flex flex-sm-row flex-column justify-content-around position-absolute top-50 start-50 translate-middle">
+        @foreach(var option in CurrentQuestion.Options) {
+            <div class="card card-hover-light m-3" style="height: 16rem; width: 16rem;">
+                <img src="@option.Image" class="card-img card-body object-fit-scale" alt="@option.Name">
+                <a role="button" class="stretched-link" @onclick="() => Selected(option)"></a>
+            </div>
+        }
+    </div>
+
+    <button onclick="document.getElementById('player').play()" type="button" class="btn btn-lg btn-outline-success rounded position-absolute bottom-0 end-0 m-5">
+        <i class="bi bi-play-fill text-light h1"></i>
+    </button>
+}
+else {
+    <div class="d-flex flex-column text-center position-absolute top-50 start-50 translate-middle">
+        <button @onclick="StartAsync" type="button" class="btn btn-success btn-lg fs-1 fw-bold">
+            Start <i class="bi bi-flag-fill"></i>
+        </button>
+    </div>
+}
+
+<audio id="incorrect">
+    <source src="/books/phonics/incorrect.mp3" type="audio/mp3">
+</audio>
+<audio id="correct">
+    <source src="/books/phonics/correct.mp3" type="audio/mp3">
+</audio>
+
+<script>
+  window.incorrect = function() { document.getElementById('incorrect').play(); }
+  window.correct = function() { document.getElementById('correct').play(); }
+</script>
