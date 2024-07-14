@@ -1,15 +1,15 @@
 ﻿@page "/phonics"
 @{
-    <div class="mt-5">
-        @foreach(var book in Books)
+    <div class="d-flex flex-column flex-md-row gap-5 position-absolute top-50 start-50 translate-middle">
+        @foreach (var book in Books)
         {
-            <div class="card shadow-sm col-md-3 col-sm-2 mx-auto my-3 px-0" style="width: 18rem;">
-                <img src="https://api.dicebear.com/9.x/shapes/svg?seed=@(new Random().Next(10))" class="card-img-top" alt="template">
-                <div class="card-body">
-                    <a href="/phonics/@book.Slug" class="card-title stretched-link text-decoration-none fw-bold fs-4">@book.Title</a>
+            <div class="card bg-success" style="height: 10rem; width: 10rem;">
+                <img src="@book.Cover" class="card-img" alt="Ilmhub English Kids">
+                <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                    <a href="/phonics/@book.Slug" class="h2 m-0 mt-1 text-decoration-none stretched-link link-dark">
+                    </a>
                 </div>
             </div>
-            
         }
     </div>
 }

@@ -27,7 +27,6 @@ public partial class PhonicsPractice
 
     protected override async Task OnInitializedAsync()
     {
-        Name = "wahid";
         var books = await Client!.GetFromJsonAsync<List<PhonicsBook>>("books/phonics/phonics.json") ?? [];
         Book = books.FirstOrDefault(b => string.Equals(bookSlug, b.Slug, StringComparison.OrdinalIgnoreCase))
             ?? throw new Exception($"No phonics book with title {bookSlug}");

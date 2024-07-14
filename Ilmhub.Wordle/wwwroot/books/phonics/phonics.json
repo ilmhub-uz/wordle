@@ -2,7 +2,7 @@
     {
         "title": "Phonics 1",
         "slug": "phonics-1",
-        "cover": "https://api.dicebear.com/9.x/shapes/svg?seed=Phonics+1",
+        "cover": "/books/phonics/phonics-1/cover.png",
         "units": [
             {
                 "id": 1,
