@@ -1,19 +1,14 @@
 ﻿@page "/phonics/{bookSlug}"
 
 @if(Book is not null) {
-    <div class="text-center">
-        <h1 class="bd-title my-5">@Book.Title</h1>
-        <div class="col-md-6 mx-auto row justify-content-center">
+    <div class="vh-100 container">
+        <p class="display-1 my-4 text-center">@Book?.Title</p>
+        <div class="d-flex flex-row flex-md-row flex-wrap gap-5 alig-items-center justify-content-center">
             @foreach (var unit in Book?.Units ?? [])
             {
-                <div class="col-sm-6 col-md-4 g-3">
-                    <div class="card shadow-sm">
-                        <label class="py-3 fs-3 fw-bold opacity-75">
-                            @unit.Topic
-                            <a href="/phonics/@Book.Slug/@unit.Id/practice"
-                                class="d-block small opacity-50 text-decoration-none stretched-link">Unit @unit.Id</a>
-                        </label>
-                    </div>
+                <div class="card bg-primary" style="min-width: 10rem; min-height: 10rem;">
+                    <p class="h3 m-auto">@unit.Topic</p>
+                    <a href="/phonics/@Book!.Slug/@unit!.Id/practice" class="stretched-link"></a>
                 </div>
             }
         </div>

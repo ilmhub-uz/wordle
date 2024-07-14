@@ -10,7 +10,7 @@ namespace Ilmhub.Wordle.Components.Phonics;
 
 public partial class ListenAndSelectPicture : IPracticeComponent
 {
-    public static string? Name => "phonics.listen.and.select";
+    public static string Name => "phonics.listen.and.select";
 
     [Inject] IJSRuntime? JS { get; set; }
 

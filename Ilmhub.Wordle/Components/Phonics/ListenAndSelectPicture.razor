@@ -10,16 +10,19 @@
     </div>
     <audio src="@CurrentQuestion.Target.Audio" id="player" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1000);">
     </audio>
-    <div class="d-flex flex-sm-row flex-column justify-content-around position-absolute top-50 start-50 translate-middle">
-        @foreach(var option in CurrentQuestion.Options) {
-            <div class="card card-hover-light m-3" style="height: 16rem; width: 16rem;">
+    <div class="d-flex flex-sm-row flex-column flex-wrap justify-content-around position-absolute top-50 start-50 translate-middle">
+        @foreach(var option in CurrentQuestion?.Options ?? []) {
+            List<string> backgrounds = [ "primary", "warning", "success", "secondary", "danger" ];
+            var background = backgrounds[new Random().Next(backgrounds.Count)];
+
+            <div class="card card-hover-transparent bg-success m-3" style="height: 10rem; width: 10rem;">
                 <img src="@option.Image" class="card-img card-body object-fit-scale" alt="@option.Name">
                 <a role="button" class="stretched-link" @onclick="() => Selected(option)"></a>
             </div>
         }
     </div>
 
-    <button onclick="document.getElementById('player').play()" type="button" class="btn btn-lg btn-outline-success rounded position-absolute bottom-0 end-0 m-5">
+    <button onclick="document.getElementById('player').play()" type="button" class="btn btn-lg btn-outline-success rounded position-absolute bottom-0 end-0 m-3">
         <i class="bi bi-play-fill text-light h1"></i>
     </button>
 }

@@ -9,7 +9,7 @@ namespace Ilmhub.Wordle.Components.Phonics;
 
 public partial class SayTheWord : IDisposable
 {
-    public static string? Name => "phonics.say.the.word";
+    public static string Name => "phonics.say.the.word";
     [Inject] public ISpeechRecognitionService SpeechRecognition { get; set; } = null!;
     [Inject] public ISpeechSynthesisService SpeechSynthesis { get; set; } = null!;
     [Inject] IJSRuntime? JS { get; set; }
