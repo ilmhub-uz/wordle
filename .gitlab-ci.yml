@@ -1,0 +1,17 @@
+image: mcr.microsoft.com/dotnet/sdk:8.0
+
+before_script:
+  - dotnet restore
+  
+pages:
+  stage: deploy
+  script:
+  - mkdir public
+  - dotnet publish Ilmhub.Wordle/Ilmhub.Wordle.csproj -c Release -o public
+  - cp -a /builds/ilmhub/wordle/public/wwwroot/* ./public
+  # - sed -i 's/<base href="\/">/<base href="\/soyabonlar\/" \/>/g' ./public/index.html
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
