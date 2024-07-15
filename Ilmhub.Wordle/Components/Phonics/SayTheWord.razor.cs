@@ -57,7 +57,8 @@ public partial class SayTheWord : IDisposable
 
     private async Task StartListening()
     {
-        Listening = true;
+        if(Listening) return;
+        
         recognitionTimer.Elapsed += (s, e) => StopListening();
         recognitionTimer.Reset(timerInterval);
         await Task.Run(() =>

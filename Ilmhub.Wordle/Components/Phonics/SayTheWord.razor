@@ -1,41 +1,53 @@
-@if(Started && Words.Any() is true && currentIndex < Words.Count) {
-    <div 
-        class="progress" 
-        role="progressbar" 
-        aria-valuenow="@currentProgress" 
-        aria-valuemin="0" 
-        aria-valuemax="100" 
-        style="height: 5px;">
-        <div class="progress-bar" style="width: @currentProgress%">
+<div class="vh-100 vw-100">
 
+    @if(Started && Words.Any() is true && currentIndex < Words.Count) {
+        <div 
+            class="progress" 
+            role="progressbar" 
+            aria-valuenow="@currentProgress" 
+            aria-valuemin="0" 
+            aria-valuemax="100" 
+            style="height: 5px;">
+            <div class="progress-bar" style="width: @currentProgress%">
+
+            </div>
         </div>
-    </div>
 
-    <div class="position-absolute bottom-50 start-50 translate-middle-x">
-        <h1 style="font-size: 8rem;">@Words[currentIndex].Name</h1>
-    </div>
+        <div class="position-relative top-50 translate-middle-y text-center">
+            <h1 class="display-1 fw-semibold">@Words[currentIndex].Name</h1>
+        </div>
 
-    if(Listening) {
-        <div class="d-@(Listening ? "block" : "none") position-absolute bottom-0 start-50 translate-middle-x mb-5 opacity-50">
+        var showVawe = Listening ? "block" : "none";
+        var micButtonIcon = Listening ? "mic-fill" : "mic-mute-fill";
+        var micButtonBack = Listening ? "success" : "secondary opacity-50"; 
+
+        <div class="d-@showVawe position-relative top-50 translate-middle-y">
             <RecordingWave/>
         </div>
+        <div class="position-absolute bottom-0 end-0 m-3">
+            <button @onclick="StartListening" class="btn btn-@micButtonBack rounded-circle shadow shadow-lg" style="height: 5rem; width: 5rem;">
+                <i class="h2 bi bi-@micButtonIcon"></i>
+            </button>
+        </div>
+
+        if (SkipQuestion) {
+            <div class="d-flex flex-column text-center position-relative top-50 start-50 translate-middle">
+                <button @onclick="OnSkipQuestion" type="button" class="btn btn-success btn-lg fs-1 fw-bold">
+                    Skip <i class="bi bi-arrow-right"></i>
+                </button>
+            </div>
+        }
     } 
-    else if (SkipQuestion) {
+
+    @if(Started is false) {
         <div class="d-flex flex-column text-center position-absolute top-50 start-50 translate-middle">
-            <button @onclick="OnSkipQuestion" type="button" class="btn btn-success btn-lg fs-1 fw-bold">
-                Skip <i class="bi bi-arrow-right"></i>
+            <button @onclick="StartAsync" type="button" class="btn btn-success btn-lg fs-1 fw-bold">
+                Start <i class="bi bi-flag-fill"></i>
             </button>
         </div>
     }
-} 
+</div>
 
-@if(Started is false) {
-    <div class="d-flex flex-column text-center position-absolute top-50 start-50 translate-middle">
-        <button @onclick="StartAsync" type="button" class="btn btn-success btn-lg fs-1 fw-bold">
-            Start <i class="bi bi-flag-fill"></i>
-        </button>
-    </div>
-}
 
 <audio id="incorrect">
     <source src="/books/phonics/incorrect.mp3" type="audio/mp3">

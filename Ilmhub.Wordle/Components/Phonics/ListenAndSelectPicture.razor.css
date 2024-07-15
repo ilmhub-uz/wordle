@@ -1,3 +1,6 @@
 .card-hover-transparent:hover {
     background: transparent !important;
 }
+.card-hover-success:hover {
+    background: var(--bs-success) !important;
+}

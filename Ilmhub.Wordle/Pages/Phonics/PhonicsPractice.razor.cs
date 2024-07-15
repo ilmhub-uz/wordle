@@ -81,8 +81,8 @@ public partial class PhonicsPractice
             UnitId = unitId,
             BookSlug = bookSlug,
             StartedAt = DateTimeOffset.Now,
-            Practices = [ ListenAndSelectPicture.Name, SayTheWord.Name ],
-            CurrentPracticeName = ListenAndSelectPicture.Name
+            Practices = [ SayTheWord.Name ],
+            CurrentPracticeName = SayTheWord.Name
         };
 
         LocalStorage!.SetItem(storageKey, Practice);
