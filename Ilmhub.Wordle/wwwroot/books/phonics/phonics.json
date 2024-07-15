@@ -78,7 +78,7 @@
                         "name": "egg",
                         "image": "/books/phonics/phonics-1/unit-2/egg.png",
                         "audio": "/books/phonics/phonics-1/unit-2/egg.mp3"
-                    },  
+                    },
                     {
                         "name": "elephant",
                         "image": "/books/phonics/phonics-1/unit-2/elephant.png",
@@ -103,6 +103,795 @@
                         "name": "fish",
                         "image": "/books/phonics/phonics-1/unit-2/fish.png",
                         "audio": "/books/phonics/phonics-1/unit-2/fish.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "topic": "Gg, Hh, Ii",
+                "words": [
+                    {
+                        "name": "girl",
+                        "image": "/books/phonics/phonics-1/unit-3/girl.png",
+                        "audio": "/books/phonics/phonics-1/unit-3/girl.mp3"
+                    },
+                    {
+                        "name": "hat",
+                        "image": "/books/phonics/phonics-1/unit-3/hat.png",
+                        "audio": "/books/phonics/phonics-1/unit-3/hat.mp3"
+                    },
+                    {
+                        "name": "gloves",
+                        "image": "/books/phonics/phonics-1/unit-3/gloves.png",
+                        "audio": "/books/phonics/phonics-1/unit-3/gloves.mp3"
+                    },
+                    {
+                        "name": "green",
+                        "image": "/books/phonics/phonics-1/unit-3/green.png",
+                        "audio": "/books/phonics/phonics-1/unit-3/green.mp3"
+                    },
+                    {
+                        "name": "hand",
+                        "image": "/books/phonics/phonics-1/unit-3/hand.png",
+                        "audio": "/books/phonics/phonics-1/unit-3/hand.mp3"
+                    },
+                    {
+                        "name": "hippo",
+                        "image": "/books/phonics/phonics-1/unit-3/hippo.png",
+                        "audio": "/books/phonics/phonics-1/unit-3/hippo.mp3"
+                    },
+                    {
+                        "name": "igloo",
+                        "image": "/books/phonics/phonics-1/unit-3/igloo.png",
+                        "audio": "/books/phonics/phonics-1/unit-3/igloo.mp3"
+                    },
+                    {
+                        "name": "indian",
+                        "image": "/books/phonics/phonics-1/unit-3/indian.png",
+                        "audio": "/books/phonics/phonics-1/unit-3/indian.mp3"
+                    },
+                    {
+                        "name": "ink",
+                        "image": "/books/phonics/phonics-1/unit-3/ink.png",
+                        "audio": "/books/phonics/phonics-1/unit-3/ink.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "topic": "Jj, Kk, Ll",
+                "words": [
+                    {
+                        "name": "jacket",
+                        "image": "/books/phonics/phonics-1/unit-4/jacket.png",
+                        "audio": "/books/phonics/phonics-1/unit-4/jacket.mp3"
+                    },
+                    {
+                        "name": "jar",
+                        "image": "/books/phonics/phonics-1/unit-4/jar.png",
+                        "audio": "/books/phonics/phonics-1/unit-4/jar.mp3"
+                    },
+                    {
+                        "name": "jet",
+                        "image": "/books/phonics/phonics-1/unit-4/jet.png",
+                        "audio": "/books/phonics/phonics-1/unit-4/jet.mp3"
+                    },
+                    {
+                        "name": "kangaroo",
+                        "image": "/books/phonics/phonics-1/unit-4/kangaroo.png",
+                        "audio": "/books/phonics/phonics-1/unit-4/kangaroo.mp3"
+                    },
+                    {
+                        "name": "key",
+                        "image": "/books/phonics/phonics-1/unit-4/key.png",
+                        "audio": "/books/phonics/phonics-1/unit-4/key.mp3"
+                    },
+                    {
+                        "name": "king",
+                        "image": "/books/phonics/phonics-1/unit-4/king.png",
+                        "audio": "/books/phonics/phonics-1/unit-4/king.mp3"
+                    },
+                    {
+                        "name": "lamp",
+                        "image": "/books/phonics/phonics-1/unit-4/lamp.png",
+                        "audio": "/books/phonics/phonics-1/unit-4/lamp.mp3"
+                    },
+                    {
+                        "name": "lemon",
+                        "image": "/books/phonics/phonics-1/unit-4/lemon.png",
+                        "audio": "/books/phonics/phonics-1/unit-4/lemon.mp3"
+                    },
+                    {
+                        "name": "lion",
+                        "image": "/books/phonics/phonics-1/unit-4/lion.png",
+                        "audio": "/books/phonics/phonics-1/unit-4/lion.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "topic": "Mm, Nn, Oo",
+                "words": [
+                    {
+                        "name": "melon",
+                        "image": "/books/phonics/phonics-1/unit-5/melon.png",
+                        "audio": "/books/phonics/phonics-1/unit-5/melon.mp3"
+                    },
+                    {
+                        "name": "milk",
+                        "image": "/books/phonics/phonics-1/unit-5/milk.png",
+                        "audio": "/books/phonics/phonics-1/unit-5/milk.mp3"
+                    },
+                    {
+                        "name": "mom",
+                        "image": "/books/phonics/phonics-1/unit-5/mom.png",
+                        "audio": "/books/phonics/phonics-1/unit-5/mom.mp3"
+                    },
+                    {
+                        "name": "nail",
+                        "image": "/books/phonics/phonics-1/unit-5/nail.png",
+                        "audio": "/books/phonics/phonics-1/unit-5/nail.mp3"
+                    },
+                    {
+                        "name": "neck",
+                        "image": "/books/phonics/phonics-1/unit-5/neck.png",
+                        "audio": "/books/phonics/phonics-1/unit-5/neck.mp3"
+                    },
+                    {
+                        "name": "nut",
+                        "image": "/books/phonics/phonics-1/unit-5/nut.png",
+                        "audio": "/books/phonics/phonics-1/unit-5/nut.mp3"
+                    },
+                    {
+                        "name": "onion",
+                        "image": "/books/phonics/phonics-1/unit-5/onion.png",
+                        "audio": "/books/phonics/phonics-1/unit-5/onion.mp3"
+                    },
+                    {
+                        "name": "orange",
+                        "image": "/books/phonics/phonics-1/unit-5/orange.png",
+                        "audio": "/books/phonics/phonics-1/unit-5/orange.mp3"
+                    },
+                    {
+                        "name": "ox",
+                        "image": "/books/phonics/phonics-1/unit-5/ox.png",
+                        "audio": "/books/phonics/phonics-1/unit-5/ox.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "topic": "Pp, Qq, Rr",
+                "words": [
+                    {
+                        "name": "pear",
+                        "image": "/books/phonics/phonics-1/unit-6/pear.png",
+                        "audio": "/books/phonics/phonics-1/unit-6/pear.mp3"
+                    },
+                    {
+                        "name": "pen",
+                        "image": "/books/phonics/phonics-1/unit-6/pen.png",
+                        "audio": "/books/phonics/phonics-1/unit-6/pen.mp3"
+                    },
+                    {
+                        "name": "pig",
+                        "image": "/books/phonics/phonics-1/unit-6/pig.png",
+                        "audio": "/books/phonics/phonics-1/unit-6/pig.mp3"
+                    },
+                    {
+                        "name": "queen",
+                        "image": "/books/phonics/phonics-1/unit-6/queen.png",
+                        "audio": "/books/phonics/phonics-1/unit-6/queen.mp3"
+                    },
+                    {
+                        "name": "quiet",
+                        "image": "/books/phonics/phonics-1/unit-6/quiet.png",
+                        "audio": "/books/phonics/phonics-1/unit-6/quiet.mp3"
+                    },
+                    {
+                        "name": "quilt",
+                        "image": "/books/phonics/phonics-1/unit-6/quilt.png",
+                        "audio": "/books/phonics/phonics-1/unit-6/quilt.mp3"
+                    },
+                    {
+                        "name": "rabbit",
+                        "image": "/books/phonics/phonics-1/unit-6/rabbit.png",
+                        "audio": "/books/phonics/phonics-1/unit-6/rabbit.mp3"
+                    },
+                    {
+                        "name": "red",
+                        "image": "/books/phonics/phonics-1/unit-6/red.png",
+                        "audio": "/books/phonics/phonics-1/unit-6/red.mp3"
+                    },
+                    {
+                        "name": "ring",
+                        "image": "/books/phonics/phonics-1/unit-6/ring.png",
+                        "audio": "/books/phonics/phonics-1/unit-6/ring.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "topic": "Ss, Tt",
+                "words": [
+                    {
+                        "name": "sand",
+                        "image": "/books/phonics/phonics-1/unit-7/sand.png",
+                        "audio": "/books/phonics/phonics-1/unit-7/sand.mp3"
+                    },
+                    {
+                        "name": "sea",
+                        "image": "/books/phonics/phonics-1/unit-7/sea.png",
+                        "audio": "/books/phonics/phonics-1/unit-7/sea.mp3"
+                    },
+                    {
+                        "name": "sock",
+                        "image": "/books/phonics/phonics-1/unit-7/sock.png",
+                        "audio": "/books/phonics/phonics-1/unit-7/sock.mp3"
+                    },
+                    {
+                        "name": "sun",
+                        "image": "/books/phonics/phonics-1/unit-7/sun.png",
+                        "audio": "/books/phonics/phonics-1/unit-7/sun.mp3"
+                    },
+                    {
+                        "name": "tent",
+                        "image": "/books/phonics/phonics-1/unit-7/tent.png",
+                        "audio": "/books/phonics/phonics-1/unit-7/tent.mp3"
+                    },
+                    {
+                        "name": "tiger",
+                        "image": "/books/phonics/phonics-1/unit-7/tiger.png",
+                        "audio": "/books/phonics/phonics-1/unit-7/tiger.mp3"
+                    },
+                    {
+                        "name": "toe",
+                        "image": "/books/phonics/phonics-1/unit-7/toe.png",
+                        "audio": "/books/phonics/phonics-1/unit-7/toe.mp3"
+                    },
+                    {
+                        "name": "turtle",
+                        "image": "/books/phonics/phonics-1/unit-7/turtle.png",
+                        "audio": "/books/phonics/phonics-1/unit-7/turtle.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "topic": "Uu, Vv, Ww",
+                "words": [
+                    {
+                        "name": "umbrella",
+                        "image": "/books/phonics/phonics-1/unit-8/umbrella.png",
+                        "audio": "/books/phonics/phonics-1/unit-8/umbrella.mp3"
+                    },
+                    {
+                        "name": "uncle",
+                        "image": "/books/phonics/phonics-1/unit-8/uncle.png",
+                        "audio": "/books/phonics/phonics-1/unit-8/uncle.mp3"
+                    },
+                    {
+                        "name": "under",
+                        "image": "/books/phonics/phonics-1/unit-8/under.png",
+                        "audio": "/books/phonics/phonics-1/unit-8/under.mp3"
+                    },
+                    {
+                        "name": "van",
+                        "image": "/books/phonics/phonics-1/unit-8/van.png",
+                        "audio": "/books/phonics/phonics-1/unit-8/van.mp3"
+                    },
+                    {
+                        "name": "vest",
+                        "image": "/books/phonics/phonics-1/unit-8/vest.png",
+                        "audio": "/books/phonics/phonics-1/unit-8/vest.mp3"
+                    },
+                    {
+                        "name": "violin",
+                        "image": "/books/phonics/phonics-1/unit-8/violin.png",
+                        "audio": "/books/phonics/phonics-1/unit-8/violin.mp3"
+                    },
+                    {
+                        "name": "wand",
+                        "image": "/books/phonics/phonics-1/unit-8/wand.png",
+                        "audio": "/books/phonics/phonics-1/unit-8/wand.mp3"
+                    },
+                    {
+                        "name": "watch",
+                        "image": "/books/phonics/phonics-1/unit-8/watch.png",
+                        "audio": "/books/phonics/phonics-1/unit-8/watch.mp3"
+                    },
+                    {
+                        "name": "window",
+                        "image": "/books/phonics/phonics-1/unit-8/window.png",
+                        "audio": "/books/phonics/phonics-1/unit-8/window.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "topic": "Xx, Yy, Zz",
+                "words": [
+                    {
+                        "name": "axe",
+                        "image": "/books/phonics/phonics-1/unit-9/axe.png",
+                        "audio": "/books/phonics/phonics-1/unit-9/axe.mp3"
+                    },
+                    {
+                        "name": "fox",
+                        "image": "/books/phonics/phonics-1/unit-9/fox.png",
+                        "audio": "/books/phonics/phonics-1/unit-9/fox.mp3"
+                    },
+                    {
+                        "name": "x-ray",
+                        "image": "/books/phonics/phonics-1/unit-9/x-ray.png",
+                        "audio": "/books/phonics/phonics-1/unit-9/x-ray.mp3"
+                    },
+                    {
+                        "name": "yack",
+                        "image": "/books/phonics/phonics-1/unit-9/yack.png",
+                        "audio": "/books/phonics/phonics-1/unit-9/yack.mp3"
+                    },
+                    {
+                        "name": "yellow",
+                        "image": "/books/phonics/phonics-1/unit-9/yellow.png",
+                        "audio": "/books/phonics/phonics-1/unit-9/yellow.mp3"
+                    },
+                    {
+                        "name": "yo-yo",
+                        "image": "/books/phonics/phonics-1/unit-9/yo-yo.png",
+                        "audio": "/books/phonics/phonics-1/unit-9/yo-yo.mp3"
+                    },
+                    {
+                        "name": "zebra",
+                        "image": "/books/phonics/phonics-1/unit-9/zebra.png",
+                        "audio": "/books/phonics/phonics-1/unit-9/zebra.mp3"
+                    },
+                    {
+                        "name": "zero",
+                        "image": "/books/phonics/phonics-1/unit-9/zero.png",
+                        "audio": "/books/phonics/phonics-1/unit-9/zero.mp3"
+                    },
+                    {
+                        "name": "zipper",
+                        "image": "/books/phonics/phonics-1/unit-9/zipper.png",
+                        "audio": "/books/phonics/phonics-1/unit-9/zipper.mp3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Phonics 2",
+        "slug": "phonics-2",
+        "cover": "/books/phonics/phonics-2/cover.png",
+        "units": [
+            {
+                "id": "1",
+                "topic": "#1 Short Vowel 'a'",
+                "words": [
+                    {
+                        "name": "bat",
+                        "image": "/books/phonics/phonics-2/unit-1/bat.png",
+                        "audio": "/books/phonics/phonics-2/unit-1/bat.mp3"
+                    },
+                    {
+                        "name": "can",
+                        "image": "/books/phonics/phonics-2/unit-1/can.png",
+                        "audio": "/books/phonics/phonics-2/unit-1/can.mp3"
+                    },
+                    {
+                        "name": "cat",
+                        "image": "/books/phonics/phonics-2/unit-1/cat.png",
+                        "audio": "/books/phonics/phonics-2/unit-1/cat.mp3"
+                    },
+                    {
+                        "name": "fan",
+                        "image": "/books/phonics/phonics-2/unit-1/fan.png",
+                        "audio": "/books/phonics/phonics-2/unit-1/fan.mp3"
+                    },
+                    {
+                        "name": "fat",
+                        "image": "/books/phonics/phonics-2/unit-1/fat.png",
+                        "audio": "/books/phonics/phonics-2/unit-1/fat.mp3"
+                    },
+                    {
+                        "name": "man",
+                        "image": "/books/phonics/phonics-2/unit-1/man.png",
+                        "audio": "/books/phonics/phonics-2/unit-1/man.mp3"
+                    },
+                    {
+                        "name": "mat",
+                        "image": "/books/phonics/phonics-2/unit-1/mat.png",
+                        "audio": "/books/phonics/phonics-2/unit-1/mat.mp3"
+                    },
+                    {
+                        "name": "pan",
+                        "image": "/books/phonics/phonics-2/unit-1/pan.png",
+                        "audio": "/books/phonics/phonics-2/unit-1/pan.mp3"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "topic": "#2 Short Vowel 'a'",
+                "words": [
+                    {
+                        "name": "dam",
+                        "image": "/books/phonics/phonics-2/unit-2/dam.png",
+                        "audio": "/books/phonics/phonics-2/unit-2/dam.mp3"
+                    },
+                    {
+                        "name": "ham",
+                        "image": "/books/phonics/phonics-2/unit-2/ham.png",
+                        "audio": "/books/phonics/phonics-2/unit-2/ham.mp3"
+                    },
+                    {
+                        "name": "jam",
+                        "image": "/books/phonics/phonics-2/unit-2/jam.png",
+                        "audio": "/books/phonics/phonics-2/unit-2/jam.mp3"
+                    },
+                    {
+                        "name": "kap",
+                        "image": "/books/phonics/phonics-2/unit-2/kap.png",
+                        "audio": "/books/phonics/phonics-2/unit-2/kap.mp3"
+                    },
+                    {
+                        "name": "lap",
+                        "image": "/books/phonics/phonics-2/unit-2/lap.png",
+                        "audio": "/books/phonics/phonics-2/unit-2/lap.mp3"
+                    },
+                    {
+                        "name": "map",
+                        "image": "/books/phonics/phonics-2/unit-2/map.png",
+                        "audio": "/books/phonics/phonics-2/unit-2/map.mp3"
+                    },
+                    {
+                        "name": "nap",
+                        "image": "/books/phonics/phonics-2/unit-2/nap.png",
+                        "audio": "/books/phonics/phonics-2/unit-2/nap.mp3"
+                    },
+                    {
+                        "name": "ram",
+                        "image": "/books/phonics/phonics-2/unit-2/ram.png",
+                        "audio": "/books/phonics/phonics-2/unit-2/ram.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "topic": "#1 Short Vowel 'e'",
+                "words": [
+                    {
+                        "name": "hen",
+                        "image": "/books/phonics/phonics-2/unit-3/hen.png",
+                        "audio": "/books/phonics/phonics-2/unit-3/hen.mp3"
+                    },
+                    {
+                        "name": "jet",
+                        "image": "/books/phonics/phonics-2/unit-3/jet.png",
+                        "audio": "/books/phonics/phonics-2/unit-3/jet.mp3"
+                    },
+                    {
+                        "name": "man",
+                        "image": "/books/phonics/phonics-2/unit-3/man.png",
+                        "audio": "/books/phonics/phonics-2/unit-3/man.mp3"
+                    },
+                    {
+                        "name": "mat",
+                        "image": "/books/phonics/phonics-2/unit-3/mat.png",
+                        "audio": "/books/phonics/phonics-2/unit-3/mat.mp3"
+                    },
+                    {
+                        "name": "net",
+                        "image": "/books/phonics/phonics-2/unit-3/net.png",
+                        "audio": "/books/phonics/phonics-2/unit-3/net.mp3"
+                    },
+                    {
+                        "name": "pen",
+                        "image": "/books/phonics/phonics-2/unit-3/pen.png",
+                        "audio": "/books/phonics/phonics-2/unit-3/pen.mp3"
+                    },
+                    {
+                        "name": "ten",
+                        "image": "/books/phonics/phonics-2/unit-3/ten.png",
+                        "audio": "/books/phonics/phonics-2/unit-3/ten.mp3"
+                    },
+                    {
+                        "name": "vet",
+                        "image": "/books/phonics/phonics-2/unit-3/vet.png",
+                        "audio": "/books/phonics/phonics-2/unit-3/vet.mp3"
+                    },
+                    {
+                        "name": "wet",
+                        "image": "/books/phonics/phonics-2/unit-3/wet.png",
+                        "audio": "/books/phonics/phonics-2/unit-3/wet.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "topic": "#2 Short Vowel 'e'",
+                "words": [
+                    {
+                        "name": "bed",
+                        "image": "/books/phonics/phonics-2/unit-4/bed.png",
+                        "audio": "/books/phonics/phonics-2/unit-4/bed.mp3"
+                    },
+                    {
+                        "name": "beg",
+                        "image": "/books/phonics/phonics-2/unit-4/beg.png",
+                        "audio": "/books/phonics/phonics-2/unit-4/beg.mp3"
+                    },
+                    {
+                        "name": "egg",
+                        "image": "/books/phonics/phonics-2/unit-4/egg.png",
+                        "audio": "/books/phonics/phonics-2/unit-4/egg.mp3"
+                    },
+                    {
+                        "name": "leg",
+                        "image": "/books/phonics/phonics-2/unit-4/leg.png",
+                        "audio": "/books/phonics/phonics-2/unit-4/leg.mp3"
+                    },
+                    {
+                        "name": "red",
+                        "image": "/books/phonics/phonics-2/unit-4/red.png",
+                        "audio": "/books/phonics/phonics-2/unit-4/red.mp3"
+                    },
+                    {
+                        "name": "wed",
+                        "image": "/books/phonics/phonics-2/unit-4/wed.png",
+                        "audio": "/books/phonics/phonics-2/unit-4/wed.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "topic": "#1 Short Vowel 'i'",
+                "words": [
+                    {
+                        "name": "big",
+                        "image": "/books/phonics/phonics-2/unit-5/big.png",
+                        "audio": "/books/phonics/phonics-2/unit-5/big.mp3"
+                    },
+                    {
+                        "name": "fin",
+                        "image": "/books/phonics/phonics-2/unit-5/fin.png",
+                        "audio": "/books/phonics/phonics-2/unit-5/fin.mp3"
+                    },
+                    {
+                        "name": "kid",
+                        "image": "/books/phonics/phonics-2/unit-5/kid.png",
+                        "audio": "/books/phonics/phonics-2/unit-5/kid.mp3"
+                    },
+                    {
+                        "name": "lid",
+                        "image": "/books/phonics/phonics-2/unit-5/lid.png",
+                        "audio": "/books/phonics/phonics-2/unit-5/lid.mp3"
+                    },
+                    {
+                        "name": "pig",
+                        "image": "/books/phonics/phonics-2/unit-5/pig.png",
+                        "audio": "/books/phonics/phonics-2/unit-5/pig.mp3"
+                    },
+                    {
+                        "name": "pin",
+                        "image": "/books/phonics/phonics-2/unit-5/pin.png",
+                        "audio": "/books/phonics/phonics-2/unit-5/pin.mp3"
+                    },
+                    {
+                        "name": "wig",
+                        "image": "/books/phonics/phonics-2/unit-5/wig.png",
+                        "audio": "/books/phonics/phonics-2/unit-5/wig.mp3"
+                    },
+                    {
+                        "name": "win",
+                        "image": "/books/phonics/phonics-2/unit-5/win.png",
+                        "audio": "/books/phonics/phonics-2/unit-5/win.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "topic": "#2 Short Vowel 'i'",
+                "words": [
+                    {
+                        "name": "fix",
+                        "image": "/books/phonics/phonics-2/unit-6/fix.png",
+                        "audio": "/books/phonics/phonics-2/unit-6/fix.mp3"
+                    },
+                    {
+                        "name": "hip",
+                        "image": "/books/phonics/phonics-2/unit-6/hip.png",
+                        "audio": "/books/phonics/phonics-2/unit-6/hip.mp3"
+                    },
+                    {
+                        "name": "hit",
+                        "image": "/books/phonics/phonics-2/unit-6/hit.png",
+                        "audio": "/books/phonics/phonics-2/unit-6/hit.mp3"
+                    },
+                    {
+                        "name": "kit",
+                        "image": "/books/phonics/phonics-2/unit-6/kit.png",
+                        "audio": "/books/phonics/phonics-2/unit-6/kit.mp3"
+                    },
+                    {
+                        "name": "lip",
+                        "image": "/books/phonics/phonics-2/unit-6/lip.png",
+                        "audio": "/books/phonics/phonics-2/unit-6/lip.mp3"
+                    },
+                    {
+                        "name": "mix",
+                        "image": "/books/phonics/phonics-2/unit-6/mix.png",
+                        "audio": "/books/phonics/phonics-2/unit-6/mix.mp3"
+                    },
+                    {
+                        "name": "rip",
+                        "image": "/books/phonics/phonics-2/unit-6/rip.png",
+                        "audio": "/books/phonics/phonics-2/unit-6/rip.mp3"
+                    },
+                    {
+                        "name": "sit",
+                        "image": "/books/phonics/phonics-2/unit-6/sit.png",
+                        "audio": "/books/phonics/phonics-2/unit-6/sit.mp3"
+                    },
+                    {
+                        "name": "six",
+                        "image": "/books/phonics/phonics-2/unit-6/six.png",
+                        "audio": "/books/phonics/phonics-2/unit-6/six.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "topic": "#1 Short Vowel 'o'",
+                "words": [
+                    {
+                        "name": "cop",
+                        "image": "/books/phonics/phonics-2/unit-7/cop.png",
+                        "audio": "/books/phonics/phonics-2/unit-7/cop.mp3"
+                    },
+                    {
+                        "name": "dog",
+                        "image": "/books/phonics/phonics-2/unit-7/dog.png",
+                        "audio": "/books/phonics/phonics-2/unit-7/dog.mp3"
+                    },
+                    {
+                        "name": "fog",
+                        "image": "/books/phonics/phonics-2/unit-7/fog.png",
+                        "audio": "/books/phonics/phonics-2/unit-7/fog.mp3"
+                    },
+                    {
+                        "name": "hop",
+                        "image": "/books/phonics/phonics-2/unit-7/hop.png",
+                        "audio": "/books/phonics/phonics-2/unit-7/hop.mp3"
+                    },
+                    {
+                        "name": "jog",
+                        "image": "/books/phonics/phonics-2/unit-7/jog.png",
+                        "audio": "/books/phonics/phonics-2/unit-7/jog.mp3"
+                    },
+                    {
+                        "name": "log",
+                        "image": "/books/phonics/phonics-2/unit-7/log.png",
+                        "audio": "/books/phonics/phonics-2/unit-7/log.mp3"
+                    },
+                    {
+                        "name": "mop",
+                        "image": "/books/phonics/phonics-2/unit-7/mop.png",
+                        "audio": "/books/phonics/phonics-2/unit-7/mop.mp3"
+                    },
+                    {
+                        "name": "top",
+                        "image": "/books/phonics/phonics-2/unit-7/top.png",
+                        "audio": "/books/phonics/phonics-2/unit-7/top.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "topic": "#2 Short Vowel 'o'",
+                "words": [
+                    {
+                        "name": "box",
+                        "image": "/books/phonics/phonics-2/unit-8/box.png",
+                        "audio": "/books/phonics/phonics-2/unit-8/box.mp3"
+                    },
+                    {
+                        "name": "dot",
+                        "image": "/books/phonics/phonics-2/unit-8/dot.png",
+                        "audio": "/books/phonics/phonics-2/unit-8/dot.mp3"
+                    },
+                    {
+                        "name": "fox",
+                        "image": "/books/phonics/phonics-2/unit-8/fox.png",
+                        "audio": "/books/phonics/phonics-2/unit-8/fox.mp3"
+                    },
+                    {
+                        "name": "hot",
+                        "image": "/books/phonics/phonics-2/unit-8/hot.png",
+                        "audio": "/books/phonics/phonics-2/unit-8/hot.mp3"
+                    },
+                    {
+                        "name": "ox",
+                        "image": "/books/phonics/phonics-2/unit-8/ox.png",
+                        "audio": "/books/phonics/phonics-2/unit-8/ox.mp3"
+                    },
+                    {
+                        "name": "pot",
+                        "image": "/books/phonics/phonics-2/unit-8/pot.png",
+                        "audio": "/books/phonics/phonics-2/unit-8/pot.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "topic": "#1 Short Vowel 'u'",
+                "words": [
+                    {
+                        "name": "bug",
+                        "image": "/books/phonics/phonics-2/unit-9/bug.png",
+                        "audio": "/books/phonics/phonics-2/unit-9/bug.mp3"
+                    },
+                    {
+                        "name": "cup",
+                        "image": "/books/phonics/phonics-2/unit-9/cup.png",
+                        "audio": "/books/phonics/phonics-2/unit-9/cup.mp3"
+                    },
+                    {
+                        "name": "hug",
+                        "image": "/books/phonics/phonics-2/unit-9/hug.png",
+                        "audio": "/books/phonics/phonics-2/unit-9/hug.mp3"
+                    },
+                    {
+                        "name": "pup",
+                        "image": "/books/phonics/phonics-2/unit-9/pup.png",
+                        "audio": "/books/phonics/phonics-2/unit-9/pup.mp3"
+                    },
+                    {
+                        "name": "rug",
+                        "image": "/books/phonics/phonics-2/unit-9/rug.png",
+                        "audio": "/books/phonics/phonics-2/unit-9/rug.mp3"
+                    },
+                    {
+                        "name": "up",
+                        "image": "/books/phonics/phonics-2/unit-9/up.png",
+                        "audio": "/books/phonics/phonics-2/unit-9/up.mp3"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "topic": "#2 Short Vowel 'u'",
+                "words": [
+                    {
+                        "name": "bun",
+                        "image": "/books/phonics/phonics-2/unit-10/bun.png",
+                        "audio": "/books/phonics/phonics-2/unit-10/bun.mp3"
+                    },
+                    {
+                        "name": "cut",
+                        "image": "/books/phonics/phonics-2/unit-10/cut.png",
+                        "audio": "/books/phonics/phonics-2/unit-10/cut.mp3"
+                    },
+                    {
+                        "name": "hut",
+                        "image": "/books/phonics/phonics-2/unit-10/hut.png",
+                        "audio": "/books/phonics/phonics-2/unit-10/hut.mp3"
+                    },
+                    {
+                        "name": "nut",
+                        "image": "/books/phonics/phonics-2/unit-10/nut.png",
+                        "audio": "/books/phonics/phonics-2/unit-10/nut.mp3"
+                    },
+                    {
+                        "name": "run",
+                        "image": "/books/phonics/phonics-2/unit-10/run.png",
+                        "audio": "/books/phonics/phonics-2/unit-10/run.mp3"
+                    },
+                    {
+                        "name": "sun",
+                        "image": "/books/phonics/phonics-2/unit-10/sun.png",
+                        "audio": "/books/phonics/phonics-2/unit-10/sun.mp3"
                     }
                 ]
             }
